@@ -17,3 +17,6 @@ vim.api.nvim_set_keymap("n", "<leader>rl", ":w<CR>:term lua %<CR>i", { noremap =
 --
 -- Close current buffer using Leader + ö
 vim.api.nvim_set_keymap("n", "<Leader>ö", ":tabclose<CR>", { noremap = true, silent = true })
+
+-- Keybinding for splitting Windows vertically using "ss" - It is personal Preference , can also be done via windows
+vim.api.nvim_set_keymap("n", "ss", ":vsplit<CR>", { noremap = true, silent = true })
